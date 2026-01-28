@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libxdamage1 libxfixes3 libxrandr2 libgbm1 \
     libpango-1.0-0 libcairo2 libasound2 \
     libxshmfence1 libglu1-mesa fonts-liberation \
-    libgtk-3-0 libgdk-pixbuf2.0-0 \
+    libgtk-3-0 libgdk-pixbuf-2.0-0 \
     libdbus-glib-1-2 libxt6 libx11-xcb1 \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
