@@ -2227,7 +2227,7 @@ async def get_recaptcha_v3_token() -> Optional[str]:
             page = await context.new_page()
             
             debug_print("  🌐 Navigating to lmarena.ai...")
-            await page.goto("https://lmarena.ai/", wait_until="domcontentloaded")
+            await page.goto("https://lmarena.ai/", wait_until="domcontentloaded", timeout=60000)
 
             # --- NEW: Cloudflare/Turnstile Pass-Through ---
             debug_print("  🛡️  Checking for Cloudflare Turnstile...")
@@ -2279,13 +2279,21 @@ async def get_recaptcha_v3_token() -> Optional[str]:
             )
             if not lib_ready:
                 debug_print("  ⚠️ Library not found immediately. Waiting...")
-                await asyncio.sleep(3)
-                lib_ready = await safe_page_evaluate(
-                    page,
-                    "() => { return !!(window.grecaptcha && window.grecaptcha.enterprise); }",
-                )
+                # Try multiple times with longer waits
+                for attempt in range(5):
+                    await asyncio.sleep(3)
+                    lib_ready = await safe_page_evaluate(
+                        page,
+                        "() => { return !!(window.grecaptcha && window.grecaptcha.enterprise); }",
+                    )
+                    if lib_ready:
+                        debug_print(f"  ✅ Library loaded after {attempt + 1} attempts")
+                        break
+                    debug_print(f"  ⏳ Attempt {attempt + 1}/5: Library still not ready...")
+                
                 if not lib_ready:
                     debug_print("❌ reCAPTCHA library never loaded.")
+                    debug_print("  💡 Tip: Try restarting the service or check if Cloudflare is blocking")
                     return None
 
             # 3. SETUP: Initialize our global result variable
