@@ -1,0 +1,32 @@
+[phases.setup]
+nixPkgs = [
+  "python311",
+  "gtk3",
+  "dbus",
+  "at-spi2-atk",
+  "cups",
+  "libdrm",
+  "mesa",
+  "xorg.libxcb",
+  "xorg.libXcomposite",
+  "xorg.libXdamage",
+  "xorg.libXext",
+  "xorg.libXfixes",
+  "xorg.libXrandr",
+  "xorg.libxshmfence",
+  "pango",
+  "cairo",
+  "alsa-lib",
+  "nss",
+  "nspr",
+  "atk",
+  "glib",
+  "expat",
+  "libxkbcommon"
+]
+
+[phases.install]
+cmds = ["pip install -r requirements.txt"]
+
+[start]
+cmd = "python src/main.py"
