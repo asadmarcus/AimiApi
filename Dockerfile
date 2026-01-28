@@ -1,12 +1,14 @@
 FROM python:3.11-slim
 
-# Install system dependencies for browsers
+# Install system dependencies for browsers (including GTK3)
 RUN apt-get update && apt-get install -y \
     libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 \
     libcups2 libdrm2 libxkbcommon0 libxcomposite1 \
     libxdamage1 libxfixes3 libxrandr2 libgbm1 \
     libpango-1.0-0 libcairo2 libasound2 \
     libxshmfence1 libglu1-mesa fonts-liberation \
+    libgtk-3-0 libgtk-3-dev libgdk-pixbuf2.0-0 \
+    libdbus-glib-1-2 libxt6 libx11-xcb1 \
     && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
