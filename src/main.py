@@ -2206,11 +2206,12 @@ async def get_recaptcha_v3_token() -> Optional[str]:
     headless = config.get("camoufox_fetch_headless", False)
     
     try:
-        chrome_token = await get_recaptcha_v3_token_with_chrome(config)
-        if chrome_token:
-            RECAPTCHA_TOKEN = chrome_token
-            RECAPTCHA_EXPIRY = datetime.now(timezone.utc) + timedelta(seconds=110)
-            return chrome_token
+        # Skip Chrome and use Camoufox directly for better Cloudflare bypass
+        # chrome_token = await get_recaptcha_v3_token_with_chrome(config)
+        # if chrome_token:
+        #     RECAPTCHA_TOKEN = chrome_token
+        #     RECAPTCHA_EXPIRY = datetime.now(timezone.utc) + timedelta(seconds=110)
+        #     return chrome_token
 
         # Use main world evaluation to avoid permission errors with wrappedJSObject
         # This allows direct access to grecaptcha without cross-origin restrictions
