@@ -38,5 +38,11 @@ EXPOSE 8000
 HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
     CMD python -c "import requests; requests.get('http://localhost:8000/api/v1/models', timeout=5)"
 
-# Run with Xvfb for virtual display
-CMD Xvfb :99 -screen 0 1280x1024x24 -nolisten tcp & python src/main.py
+# Create startup script
+RUN echo '#!/bin/bash\n\
+Xvfb :99 -screen 0 1280x1024x24 -nolisten tcp &\n\
+sleep 2\n\
+python src/main.py' > /app/start.sh && chmod +x /app/start.sh
+
+# Run with startup script
+CMD ["/app/start.sh"]
