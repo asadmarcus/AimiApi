@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  lmarena-bridge:
+    build: .
+    container_name: lmarena-bridge
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persist config and data
+      - ./config.json:/app/config.json
+      - ./models.json:/app/models.json
+      - ./chrome_grecaptcha:/app/chrome_grecaptcha
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DEBUG=True
+    healthcheck:
+      test: ["CMD", "python", "-c", "import requests; requests.get('http://localhost:8000/api/v1/models', timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

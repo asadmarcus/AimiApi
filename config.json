@@ -1,0 +1,47 @@
+{
+    "password": "admin",
+    "camoufox_fetch_headless": true,
+    "auth_token": "",
+    "_auth_tokens_backup": [
+        "base64-eyJhY2Nlc3NfdG9rZW4iOiJleUpoYkdjaU9pSkZVekkxTmlJc0ltdHBaQ0k2SWpBNVlUSTNPVFl6TFRjek5tWXROR00wWmkwNU5HSXlMV0ptWXpSaU1XSTJNV1k0T0NJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUpvZEhSd2N6b3ZMMmgxYjJkNmIyVnhlbU55WkhacmQzUjJiMlJwTG5OMWNHRmlZWE5sTG1OdkwyRjFkR2d2ZGpFaUxDSnpkV0lpT2lJNU0yUTNPRGN3TWkwMFlXRXdMVFJqWkdZdFlXWmtPQzFtTmpaa1ltUmxNamxsTXpraUxDSmhkV1FpT2lKaGRYUm9aVzUwYVdOaGRHVmtJaXdpWlhod0lqb3hOelk1TmpFeE16SXhMQ0pwWVhRaU9qRTNOamsyTURjM01qRXNJbVZ0WVdsc0lqb2lhbVZ5YjJFeU1ERkFaMjFoYVd3dVkyOXRJaXdpY0dodmJtVWlPaUlpTENKaGNIQmZiV1YwWVdSaGRHRWlPbnNpY0hKdmRtbGtaWElpT2lKbmIyOW5iR1VpTENKd2NtOTJhV1JsY25NaU9sc2laMjl2WjJ4bElsMTlMQ0oxYzJWeVgyMWxkR0ZrWVhSaElqcDdJbUYyWVhSaGNsOTFjbXdpT2lKb2RIUndjem92TDJ4b015NW5iMjluYkdWMWMyVnlZMjl1ZEdWdWRDNWpiMjB2WVM5QlEyYzRiMk5LVVhkSVZVOW9aR1pKYWtwQ2VWSlNaRWhzTjNCRWEwNXVWbFkxYldobWVrRnBlbkJ3Y0ZJM1pqRjZPWFZ4Wm1jOWN6azJMV01pTENKbGJXRnBiQ0k2SW1wbGNtOWhNakF4UUdkdFlXbHNMbU52YlNJc0ltVnRZV2xzWDNabGNtbG1hV1ZrSWpwMGNuVmxMQ0ptZFd4c1gyNWhiV1VpT2lKaGFHMWxaQ0JxWlhKdklpd2lhV1FpT2lJd01UbGlabUUxTXkwelpXRTFMVGMzTlRJdE9HTmtOQzFoTXprMU56VTJPV0UyT1RRaUxDSnBjM01pT2lKb2RIUndjem92TDJGalkyOTFiblJ6TG1kdmIyZHNaUzVqYjIwaUxDSnNZWE4wWDJ4cGJtdGxaRjl6ZFhCaFltRnpaVjkxYzJWeVgybGtJam9pTTJKa1pEVmlaV0V0TlRFME5TMDBaREU1TFdJelpqQXRNREUwTWpjNE5ESXpPV0l6SWl3aWJtRnRaU0k2SW1Gb2JXVmtJR3BsY204aUxDSndhRzl1WlY5MlpYSnBabWxsWkNJNlptRnNjMlVzSW5CcFkzUjFjbVVpT2lKb2RIUndjem92TDJ4b015NW5iMjluYkdWMWMyVnlZMjl1ZEdWdWRDNWpiMjB2WVM5QlEyYzRiMk5LVVhkSVZVOW9aR1pKYWtwQ2VWSlNaRWhzTjNCRWEwNXVWbFkxYldobWVrRnBlbkJ3Y0ZJM1pqRjZPWFZ4Wm1jOWN6azJMV01pTENKd2NtOTJhV1JsY2w5cFpDSTZJakV4T0RBM05ESXdNams0TmpJME9UY3dNRFUyTVNJc0luTjFZaUk2SWpFeE9EQTNOREl3TWprNE5qSTBPVGN3TURVMk1TSjlMQ0p5YjJ4bElqb2lZWFYwYUdWdWRHbGpZWFJsWkNJc0ltRmhiQ0k2SW1GaGJERWlMQ0poYlhJaU9sdDdJbTFsZEdodlpDSTZJbTloZFhSb0lpd2lkR2x0WlhOMFlXMXdJam94TnpZNU5ETXlNamcwZlYwc0luTmxjM05wYjI1ZmFXUWlPaUl5TVRZMk5EQTNOQzFqWldOa0xUUXlOekF0T0RNMk1TMW1ZbU16WTJNMU5XWTFaVEFpTENKcGMxOWhibTl1ZVcxdmRYTWlPbVpoYkhObGZRLjVZWWpPVGUxWjVEQmY4UUpKNnRaU0tTOXQzNnhDdkZJU3ZHSUIxemd6bjZyeHlUZTdSSU9SeEVhVzQwd1ZRc2J1VE1aTEhRTDZnRHk1S1p4cndFdlp3IiwidG9rZW5fdHlwZSI6ImJlYXJlciIsImV4cGlyZXNfaW4iOjM2MDAsImV4cGlyZXNfYXQiOjE3Njk2MTEzMjEsInJlZnJlc2hfdG9rZW4iOiJleHRkdDVsdHJ1bDYiLCJ1c2VyIjp7ImlkIjoiOTNkNzg3MDItNGFhMC00Y2RmLWFmZDgtZjY2ZGJkZTI5ZTM5IiwiYXVkIjoiYXV0aGVudGljYXRlZCIsInJvbGUiOiJhdXRoZW50aWNhdGVkIiwiZW1haWwiOiJqZXJvYTIwMUBnbWFpbC5jb20iLCJlbWFpbF9jb25maXJtZWRfYXQiOiIyMDI2LTAxLTI2VDEyOjU4OjAzLjU2NzUxWiIsInBob25lIjoiIiwiY29uZmlybWVkX2F0IjoiMjAyNi0wMS0yNlQxMjo1ODowMy41Njc1MVoiLCJsYXN0X3NpZ25faW5fYXQiOiIyMDI2LTAxLTI2VDEyOjU4OjA0LjM5NzUwOVoiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJnb29nbGUiLCJwcm92aWRlcnMiOlsiZ29vZ2xlIl19LCJ1c2VyX21ldGFkYXRhIjp7ImF2YXRhcl91cmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NKUXdIVU9oZGZJakpCeVJSZEhsN3BEa05uVlY1bWhmekFpenBwcFI3ZjF6OXVxZmc9czk2LWMiLCJlbWFpbCI6Implcm9hMjAxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmdWxsX25hbWUiOiJhaG1lZCBqZXJvIiwiaWQiOiIwMTliZmE1My0zZWE1LTc3NTItOGNkNC1hMzk1NzU2OWE2OTQiLCJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJsYXN0X2xpbmtlZF9zdXBhYmFzZV91c2VyX2lkIjoiM2JkZDViZWEtNTE0NS00ZDE5LWIzZjAtMDE0Mjc4NDIzOWIzIiwibmFtZSI6ImFobWVkIGplcm8iLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInBpY3R1cmUiOiJodHRwczovL"
+    ],
+    "auth_tokens": [],
+    "cf_clearance": "91MW2NSZNCd2qJlyw7kX78bYM4mWNNIpLWfpga3FOC0-1769610502-1.2.1.1-6rzbJvOfzEW1YuEtCHWmd.BPqISrIL6.RdQS4UMUsNMv06z1ltk98hj9FaI75_WbM1fQtOMfjoFrK0ETIX4qUYnpc9JW5HYtLEOptptq0k5Re9NT3KapzcZ2tiXXwQH3M2a0n4g2b3ptP_O5UdXYXmcb6KGwxbV7DDRmbgr2ZydilUgQZ8QCnz1fgPgm.BBSrkRDt7R3gfSm9jRTFoxLRo4PHyFfKWPahwstZLmZf2gvRi8QiIXNwOzyR35UNQK7",
+    "api_keys": [
+        {
+            "name": "Default Key",
+            "key": "sk-lmab-f08363c3-1ee2-4f9e-ade0-93035520e723",
+            "rpm": 60,
+            "created": 1769607850
+        },
+        {
+            "name": "aimichat",
+            "key": "sk-lmab-562ba111-ab4f-455c-82f0-1294220566bb",
+            "rpm": 60,
+            "created": 1769608632
+        }
+    ],
+    "usage_stats": {
+        "gemini-3-flash": 3
+    },
+    "prune_invalid_tokens": false,
+    "persist_arena_auth_cookie": false,
+    "browser_cookies": {
+        "__cf_bm": "ZtIK60ByUEMhoLDp4thnYzkGHpnYOTEphbfUwoOtfeo-1769610494-1.0.1.1-oHlQe0Z_.ByuwO3eAbQvMsseso5wYdndNyjsgRwNKRQ813JMdDv4mgDWPSwhP1n6ZUw7kMfE8Bof_j2PBR6h_AENC6643rd08.qHWneF8o8",
+        "provisional_user_id": "019c0501-1a9a-7b0f-97c1-ee216cafba75",
+        "user_country_code": "PK",
+        "cf_clearance": "91MW2NSZNCd2qJlyw7kX78bYM4mWNNIpLWfpga3FOC0-1769610502-1.2.1.1-6rzbJvOfzEW1YuEtCHWmd.BPqISrIL6.RdQS4UMUsNMv06z1ltk98hj9FaI75_WbM1fQtOMfjoFrK0ETIX4qUYnpc9JW5HYtLEOptptq0k5Re9NT3KapzcZ2tiXXwQH3M2a0n4g2b3ptP_O5UdXYXmcb6KGwxbV7DDRmbgr2ZydilUgQZ8QCnz1fgPgm.BBSrkRDt7R3gfSm9jRTFoxLRo4PHyFfKWPahwstZLmZf2gvRi8QiIXNwOzyR35UNQK7",
+        "ph_phc_LG7IJbVJqBsk584rbcKca0D5lV2vHguiijDrVji7yDM_posthog": "%7B%22%24device_id%22%3A%22019c0501-1a9a-7b0f-97c1-ee216cafba75%22%2C%22distinct_id%22%3A%22019c0501-1a9a-7b0f-97c1-ee216cafba75%22%2C%22%24sesid%22%3A%5B1769610573517%2C%22019c0501-45ea-7567-a67c-43b356de851b%22%2C1769610495461%5D%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Flmarena.ai%2F%3Fmode%3Ddirect%22%7D%7D",
+        "cf_chl_rc_ni": "10",
+        "sidebar_state": "true",
+        "_ga": "GA1.1.1624158517.1769610591",
+        "_ga_L5C4D55WJJ": "GS2.1.s1769610590$o1$g1$t1769611093$j60$l0$h0",
+        "_ga_DB32ZN1WHB": "GS2.1.s1769610590$o1$g1$t1769611093$j60$l0$h0"
+    },
+    "cf_bm": "ZtIK60ByUEMhoLDp4thnYzkGHpnYOTEphbfUwoOtfeo-1769610494-1.0.1.1-oHlQe0Z_.ByuwO3eAbQvMsseso5wYdndNyjsgRwNKRQ813JMdDv4mgDWPSwhP1n6ZUw7kMfE8Bof_j2PBR6h_AENC6643rd08.qHWneF8o8",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0",
+    "provisional_user_id": "019c0501-1a9a-7b0f-97c1-ee216cafba75",
+    "next_action_upload": "70bb3b899a42c9e2b7f365bce1ed2ccd6f0be80895",
+    "next_action_signed_url": "604f05b56df1ebc74fe921927325635872c1fe0da5",
+    "recaptcha_sitekey": "6Led_uYrAAAAAKjxDIF58fgFtX3t8loNAK85bW9I"
+}
